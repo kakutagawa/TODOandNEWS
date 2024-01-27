@@ -7,15 +7,19 @@
 
 import SwiftUI
 
+enum Tab: String, CaseIterable {
+    case todo = "ToDo"
+    case news = "News"
+}
+
 struct ContentView: View {
+    @State private var selectedTab: Tab = .todo
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        UIKitTabBarController(selectedTab: $selectedTab)
+            .onAppear {
+                UITabBar.appearance().barTintColor = UIColor.systemBackground
+            }
     }
 }
 
