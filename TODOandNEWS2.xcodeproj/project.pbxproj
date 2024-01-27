@@ -14,6 +14,8 @@
 		1DD0D2AD2B6545730008DE7F /* TODOandNEWS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2AC2B6545730008DE7F /* TODOandNEWS2Tests.swift */; };
 		1DD0D2B72B6545730008DE7F /* TODOandNEWS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2B62B6545730008DE7F /* TODOandNEWS2UITests.swift */; };
 		1DD0D2B92B6545730008DE7F /* TODOandNEWS2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2B82B6545730008DE7F /* TODOandNEWS2UITestsLaunchTests.swift */; };
+		1DD0D2C62B6546100008DE7F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2C52B6546100008DE7F /* ToDoItem.swift */; };
+		1DD0D2C82B65462A0008DE7F /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2C72B65462A0008DE7F /* ToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1DD0D2B22B6545730008DE7F /* TODOandNEWS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODOandNEWS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD0D2B62B6545730008DE7F /* TODOandNEWS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOandNEWS2UITests.swift; sourceTree = "<group>"; };
 		1DD0D2B82B6545730008DE7F /* TODOandNEWS2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOandNEWS2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DD0D2C52B6546100008DE7F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		1DD0D2C72B65462A0008DE7F /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				1DD0D29B2B6545710008DE7F /* TODOandNEWS2App.swift */,
 				1DD0D29D2B6545710008DE7F /* ContentView.swift */,
+				1DD0D2C72B65462A0008DE7F /* ToDoView.swift */,
+				1DD0D2C52B6546100008DE7F /* ToDoItem.swift */,
 				1DD0D29F2B6545730008DE7F /* Assets.xcassets */,
 				1DD0D2A12B6545730008DE7F /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				1DD0D29E2B6545710008DE7F /* ContentView.swift in Sources */,
 				1DD0D29C2B6545710008DE7F /* TODOandNEWS2App.swift in Sources */,
+				1DD0D2C82B65462A0008DE7F /* ToDoView.swift in Sources */,
+				1DD0D2C62B6546100008DE7F /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
