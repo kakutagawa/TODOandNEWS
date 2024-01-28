@@ -22,6 +22,8 @@
 		1DD0D2D02B655F5A0008DE7F /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2CF2B655F5A0008DE7F /* TabController.swift */; };
 		1DD0D2D22B6560E00008DE7F /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2D12B6560E00008DE7F /* ToDoViewController.swift */; };
 		1DD0D2D42B6560EC0008DE7F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2D32B6560EC0008DE7F /* NewsViewController.swift */; };
+		1DD0D2D82B65E45B0008DE7F /* NewsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2D72B65E45B0008DE7F /* NewsDetailView.swift */; };
+		1DD0D2DA2B65E4B90008DE7F /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0D2D92B65E4B90008DE7F /* NewsDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		1DD0D2CF2B655F5A0008DE7F /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
 		1DD0D2D12B6560E00008DE7F /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		1DD0D2D32B6560EC0008DE7F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		1DD0D2D72B65E45B0008DE7F /* NewsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailView.swift; sourceTree = "<group>"; };
+		1DD0D2D92B65E4B90008DE7F /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 			children = (
 				1DD0D2C72B65462A0008DE7F /* ToDoView.swift */,
 				1DD0D2CB2B655B440008DE7F /* NewsView.swift */,
+				1DD0D2D72B65E45B0008DE7F /* NewsDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				1DD0D2CF2B655F5A0008DE7F /* TabController.swift */,
 				1DD0D2D12B6560E00008DE7F /* ToDoViewController.swift */,
 				1DD0D2D32B6560EC0008DE7F /* NewsViewController.swift */,
+				1DD0D2D92B65E4B90008DE7F /* NewsDetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -297,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DD0D2DA2B65E4B90008DE7F /* NewsDetailViewController.swift in Sources */,
 				1DD0D29E2B6545710008DE7F /* ContentView.swift in Sources */,
 				1DD0D2D02B655F5A0008DE7F /* TabController.swift in Sources */,
 				1DD0D2CA2B655B040008DE7F /* NewsItem.swift in Sources */,
@@ -305,6 +312,7 @@
 				1DD0D2D22B6560E00008DE7F /* ToDoViewController.swift in Sources */,
 				1DD0D2CE2B655B800008DE7F /* GetNews.swift in Sources */,
 				1DD0D2CC2B655B440008DE7F /* NewsView.swift in Sources */,
+				1DD0D2D82B65E45B0008DE7F /* NewsDetailView.swift in Sources */,
 				1DD0D2C82B65462A0008DE7F /* ToDoView.swift in Sources */,
 				1DD0D2C62B6546100008DE7F /* ToDoItem.swift in Sources */,
 			);

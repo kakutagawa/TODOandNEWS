@@ -7,8 +7,23 @@
 
 import SwiftUI
 
+protocol NewsDelegate {
+    func transition(article: Article)
+}
+
+final class NewsArticleDidTap {
+    var delegate: NewsDelegate?
+    func TappedArticle(article: Article) {
+        guard let delegate = delegate else {
+            return
+        }
+        delegate.transition(article: article)
+    }
+}
+
 struct NewsView: View {
     @StateObject var newsList = GetNews()
+    var newsArticleDidTap = NewsArticleDidTap()
 
     var body: some View {
         VStack {
@@ -16,7 +31,7 @@ struct NewsView: View {
                 .font(.system(size: 30, weight: .bold, design: .default))
             List(newsList.articles, id: \.title) { article in
                 Button {
-
+                    newsArticleDidTap.TappedArticle(article: article)
                 } label: {
                     VStack(alignment: .leading) {
                         HStack {

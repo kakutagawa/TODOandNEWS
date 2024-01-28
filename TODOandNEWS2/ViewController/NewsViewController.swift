@@ -27,3 +27,10 @@ final class NewsViewController: UIViewController {
         ])
     }
 }
+
+extension NewsViewController: NewsDelegate {
+    func transition(article: Article) {
+        let newsDetailViewController = NewsDetailViewController(selectedArticle: article)
+        navigationController?.pushViewController(newsDetailViewController, animated: true)
+    }
+}
